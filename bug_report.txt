@@ -1,18 +1,25 @@
-Структура багрепорта:
-1) Заголовок (summary) - краткое описание проблемы, которая явно указывает на тип и причину ошибочной ситуации
-2) Проект (project) - название тестируемого объекта
-3) Компонент приложения (component) - название части или функции тестируемого продукта
-4) Номер версии (version) - версия, на которой была найдена ошибка
-5) Критичность (severity) - Blocker Critical Major Minor Trivial
-6) Приоритет (priority) - Hight Medium Low
-7) Статутс (status) - Статус бага (новый, открыт, закрыт)
-8) Автор (author) - создатель багрепорта
-9) Назначен на (assigned to) - имя сотрудника, назначенного на решение проблемы
-10) Описание (desctoption) 
-- описание об окрудении. на котором был найден бак : операционная система сервис пак, имя и версия браузера, версия ПО чипа, версия библиотеки  и т.д.
- - Шаги, по которым можно легко воспроизвести ситуацию, приведшую к ошибке.
- -Полученный результат
- - Ожидаемый результат
-11) Прикрепленный файл (Attachment) - Файл с логами, скриншот или любой другой документ, который может помочь прояснить причину ошибки или указать на способ решения проблемы
+ID - Identification number
+Summary - A section that summarizes the essence of the bug in one sentence. Answers the questions What? Where? Under what circumstances?
+Project - Name of project, program or application in which a bug is identified
+Version - The exact version of the software containing the bug
+Severity - The parameter that determines the effect of bug on program operation:
+-Blocker
+-Critical
+-Major
+-Minor
+-Trivial
+Priority - Parameter that determines the urgency of bug correction:
+-Hight
+-Medium
+-Low
+Status - Depends on the stage of the bug: open, in operation, fixed, rejected, delayed
+Author - Bug Writer
+Assigned to - The developer who will fix the bug
+Steps to reproduce -  The exact sequence of actions, which leads to reproduction of a bug
+Actual result - What happens when you play the steps, how the program works now
+Expected result - How the program should actually work
+Attachments - Links, screenshots, videos and other materials that will help the developer better understand the nature of the problem
+
+
 
 
